@@ -1,0 +1,97 @@
+.main-div {
+  border: 1px solid;
+  margin-top: 10px;
+  width: 80%;
+  margin: 50px auto;
+  height: auto;
+}
+.h1 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+  width: max-content;
+  padding: 1px 20px;
+}
+.table {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.table thead {
+  background-color: rgb(44, 112, 190);
+  color: white;
+}
+table th {
+  padding: 10px;
+  border: 2px solid black;
+}
+table td {
+  border: 2px solid;
+
+  padding: 10px 20px;
+}
+.table-add-btn {
+  float: right;
+}
+.action {
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  color: rgb(44, 112, 190);
+  cursor: pointer;
+  margin-right: 20px;
+  /* width: 5rem; */
+}
+.add {
+  width: 10vw;
+  background-color: rgb(44, 112, 190);
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 64vw;
+}
+.header-btn {
+  background-color: rgb(44, 112, 190);
+  border: none;
+  padding: 5px 10px;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 160px;
+  margin-top: 20px;
+}
+.main-div-retrivedata {
+  border: 1px solid;
+  margin-top: 10px;
+  width: 80%;
+  margin: 50px auto;
+  height: auto;
+}
+.no-data {
+  padding: 10px 0;
+  margin: 10px 40%;
+}
+.single-data {
+  margin: 20px 50px;
+}
+.btn-find {
+  background-color: rgb(44, 112, 190);
+  border: none;
+  padding: 3px 10px;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
